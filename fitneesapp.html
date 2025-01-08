@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>減肥產品 APP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            background-color: #007bff;
+        }
+        section {
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card h3 {
+            color: #007bff;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .form-container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>減肥產品 APP</h1>
+        <p>專為減重而設計，達成健康目標的最佳選擇</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">首頁</a>
+        <a href="#login">登入</a>
+        <a href="#register">註冊</a>
+        <a href="#product">產品介紹</a>
+        <a href="#goal">設定目標</a>
+        <a href="#track">健康追蹤</a>
+    </nav>
+
+    <!-- Main Content -->
+    <section id="home">
+        <div class="card">
+            <h3>歡迎來到減肥APP</h3>
+            <p>我們提供一個簡單且高效的減肥方式，幫助你輕鬆達成健康的體重目標。註冊後，你將能夠設定目標，並追蹤進度。</p>
+        </div>
+    </section>
+
+    <!-- Login Page -->
+    <section id="login">
+        <div class="form-container">
+            <h3>登入</h3>
+            <input type="email" placeholder="輸入電子郵件" required>
+            <input type="password" placeholder="輸入密碼" required>
+            <button>登入</button>
+        </div>
+    </section>
+
+    <!-- Register Page -->
+    <section id="register">
+        <div class="form-container">
+            <h3>註冊</h3>
+            <input type="text" placeholder="輸入姓名" required>
+            <input type="email" placeholder="輸入電子郵件" required>
+            <input type="password" placeholder="設定密碼" required>
+            <button>註冊</button>
+        </div>
+    </section>
+
+    <!-- Product Introduction Page -->
+    <section id="product">
+        <div class="card">
+            <h3>減肥產品介紹</h3>
+            <p>我們的減肥產品由天然成分製成，專為幫助人體燃燒脂肪設計。無需劇烈運動，輕鬆達成減重目標。</p>
+            <ul>
+                <li>天然植物萃取</li>
+                <li>促進新陳代謝</li>
+                <li>高效燃脂</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Goal Setting Page -->
+    <section id="goal">
+        <div class="card">
+            <h3>設定減肥目標</h3>
+            <p>在這裡，你可以設定你的減肥目標，讓我們幫助你計劃達成這些目標。</p>
+            <input type="number" placeholder="目標體重 (kg)" required>
+            <button>設定目標</button>
+        </div>
+    </section>
+
+    <!-- Health Tracking Page -->
+    <section id="track">
+        <div class="card">
+            <h3>健康追蹤</h3>
+            <p>在這裡，你可以追蹤你的健康數據，了解減肥過程中的每個進展。</p>
+            <button>查看健康數據</button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 減肥APP | 所有權利保留</p>
+    </footer>
+
+</body>
+</html>
